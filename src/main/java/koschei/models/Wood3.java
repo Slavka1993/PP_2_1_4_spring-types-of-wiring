@@ -9,7 +9,7 @@ public class Wood3 {
     private Rabbit4 rabbit;
 
     @Autowired
-    public Wood3(Rabbit4 rabbit) {
+    public void setRabbit(Rabbit4 rabbit) {
         this.rabbit = rabbit;
     }
 
